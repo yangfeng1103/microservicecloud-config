@@ -1,15 +1,15 @@
-spring: 
-  profiles: 
-    active: 
-	- dev
+ï»¿spring: 
+   profiles: 
+     active: 
+     - dev
 ---
 spring: 
-  profiles: dev     # ¿ª·¢»·¾³
-  application: 
-    name: microservicecloud-config-south-dev
+   profiles: dev     # å¼€å‘ç¯å¢ƒ
+   application: 
+     name: microservicecloud-config-south-dev
 ---
 spring: 
-  profiles: test    # ²âÊÔ»·¾³
-  application: 
-    name: microservicecloud-config-south-test
-# Çë±£´æÎªUTF-8¸ñÊ½
+   profiles: test    # æµ‹è¯•ç¯å¢ƒ
+   application: 
+     name: microservicecloud-config-south-test
+# è¯·ä¿å­˜ä¸ºUTF-8æ ¼å¼
