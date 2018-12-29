@@ -9,6 +9,8 @@ server:
 
 spring: 
   profiles: dev
+  application: 
+    name: microservicecloud-config-consumer-client
 
 feign: 
   hystrix: 
